@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Book E-Shop</title>
+  <link rel="shortcut icon" href="img/libros.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/carrito.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__container">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo3.png" alt="Logotipo" />
+    </a>
+  </div>
+</header>
+
+<nav class="header_navegacion">
+  <a class="navegacion__enlace" href="producto.html"> Libros </a>
+  <a class="navegacion__enlace" href="busqueda.html"> Busqueda </a>
+  <a class="navegacion__enlace" href="login.html"> Inicio de sesion </a>
+  <a class="navegacion__enlace" href="registro.html"> Registrarse </a>
+  <a class="navegacion__enlace" href="carrito.html"> Carrito de compras </a>
+  <a class="navegacion__enlace" href="envio.html"> Rastrear Envio</a>
+</nav>
+
+<main class="contenedor">
+  <h1>Carrito de compras</h1>
+</main>
+
+<div class="carrito">
+  <div class="carrito__encabezado">
+    <div class="carrito__encabezado__item">Producto</div>
+    <div class="carrito__encabezado__item">Precio</div>
+    <div class="carrito__encabezado__item">Cantidad</div>
+    <div class="carrito__encabezado__item">Total</div>
+    <div class="carrito__encabezado__item"></div>
+  </div>
+  <div class="carrito__contenido">
+    <div class="carrito__producto">
+      <div class="carrito__producto__item">
+        <img src="img/1.jpg" alt="Imagen 1">
+        <p class="producto__nombre">Saga el cementerio de los libros olvidados</p>
+      </div>
+      <div class="carrito__producto__item">
+        <p class="producto__precio">$800 mxn</p>
+      </div>
+      <div class="carrito__producto__item">
+        <input type="number" class="producto__cantidad" value="1">
+      </div>
+      <div class="carrito__producto__item">
+        <p class="producto__total">$800 mxn</p>
+      </div>
+      <div class="carrito__producto__item">
+        <button class="btn btn--eliminar">Eliminar</button>
+      </div>
+    </div>
+    <div class="carrito__producto">
+      <div class="carrito__producto__item">
+        <img src="img/2.jpg" alt="Imagen 2">
+        <p class="producto__nombre">La sombra del viento</p>
+      </div>
+      <div class="carrito__producto__item">
+        <p class="producto__precio">$200 mxn</p>
+      </div>
+      <div class="carrito__producto__item">
+        <input type="number" class="producto__cantidad" value="1">
+      </div>
+      <div class="carrito__producto__item">
+        <p class="producto__total">$200 mxn</p>
+      </div>
+      <div class="carrito__producto__item">
+        <button class="btn btn--eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  <div class="carrito__resumen">
+    <h2>Resumen del carrito</h2>
+    <div class="carrito__resumen__item">
+      <p>Subtotal:</p>
+      <p class="subtotal">$1000 mxn</p>
+    </div>
+    <div class="carrito__resumen__item">
+      <p>Envío:</p>
+      <p class="envio">$100 mxn</p>
+    </div>
+    <div class="carrito__resumen__item">
+      <p>Total: $1100 mxn</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="footer__texto">Book E-Shop - Todos los derechos reservados 2023.</p>
+  </footer>
+</body>
+</html>

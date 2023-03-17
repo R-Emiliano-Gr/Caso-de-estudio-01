@@ -1,0 +1,111 @@
+/* Estilos generales */
+
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion__enlace:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de contenedor principal */
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de carrito */
+.carrito {
+    margin-top: 20px;
+}
+
+.carrito__encabezado {
+    background-color: #EEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.carrito__encabezado__item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.carrito__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.carrito__producto {
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.carrito__producto__item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.producto__nombre {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.producto__precio,
+.producto__total {
+    margin: 0;
+}
+
+.producto__cantidad {
+    width: 50%;
+}
+
+.btn {
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+.btn--eliminar {
+    background-color: #F00;
+}
+
+/* Estilos de resumen */
+.carrito__resumen {
+    background-color: #EEE;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.carrito__resumen__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.subtotal,
+.envio {
+    font-weight: bold;
+}
+
+.footer__texto {
+    margin: 0;
+    font-size: 14px;
+}
