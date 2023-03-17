@@ -1,0 +1,173 @@
+:root
+{
+    --primario: #D2D2D2;
+    --primarioOscuro: #807876;
+    --secundario: #C4BF21;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #FFF;
+    --negro: #000;
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:before,after
+ {
+     box-sizing: inherit;
+ }
+
+body
+{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p
+{
+    font-size: 1.8rem;
+    font-family: Arial,Helvetica, sans-serif;
+    color: var(--negro);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.contenedor
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3
+{
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3.2rem;
+}
+
+h3
+{
+    font-size: 2.4rem;
+}
+
+/* Header */
+
+.header
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo
+{
+    margin: 3rem 0;
+}
+
+.footer
+{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto
+{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.header__container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_navegacion
+{
+    background-color: var(--primarioOscuro);
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    gap: 2rem;
+}
+
+.navegacion__enlace
+{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    margin-right: 2rem;
+}
+
+.navegacion__enlace:hover
+{
+    color: var(--secundario);
+}
+
+.grid {
+    display: inline-block;
+    margin-right: 2%;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.producto__container {
+    margin-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.producto__imagen {
+    max-width: 354px;
+    height: 341px;
+}
+
+.producto__informacion {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+.producto__nombre {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.producto__precio {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
